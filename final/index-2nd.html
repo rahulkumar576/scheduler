@@ -1198,8 +1198,8 @@ const slotData = (data) => {
     //console.log("sdfsdf")
     }
 
-    const config = {
-      headers: {
+    const config = {  
+        headers: {
         'Content-Type': 'application/json',
       },
     };
@@ -1211,8 +1211,6 @@ const slotData = (data) => {
       console.log(response.data);
      if(response.data.statusCode==201){
        location.href='thank-you.html';
-      }else{
-        alert("phone number and email id already exists ")
       }
     })
     .catch((error) => console.error(error.response)); 
@@ -1220,8 +1218,9 @@ const slotData = (data) => {
   
   
 
-//submitBtn.addEventListener('click', postData); 
+submitBtn.addEventListener('click', postData); 
 
 </script>
+
 
 </html>
