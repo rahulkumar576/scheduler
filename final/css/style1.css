@@ -251,12 +251,13 @@ label:hover{
 }
 
 .one-half2 {
-  width:60%;
+  width:100%;
   vertical-align: middle;
   margin: 0 auto;
 }
   
 @media only screen and (max-width:1200px){
+ 
     .top-nav .row{
         padding:0;
     }
@@ -268,12 +269,14 @@ label:hover{
 }
 }
 @media only screen and (max-width:1060px){
+ 
   label{
   font-size:12px;
   padding:9% 6%;
   }
 }
 @media only screen and (max-width:970px){
+ 
   .one-half .intro-points li, .form-demo .form-intro{
       font-size:15px;
   }
@@ -282,6 +285,7 @@ label:hover{
   }
 }
 @media only screen and (max-width:850px){
+ 
     .one-half{
         width:49%;
     }
@@ -297,6 +301,7 @@ label:hover{
   }
 }
 @media only screen and (max-width:700px){
+ 
     .form-demo h2{
         font-size:24px;
     }
@@ -305,6 +310,7 @@ label:hover{
   }
 }
 @media only screen and (max-width:660px){
+ 
   .radio-slot .display-inline{
     width:28%;
   }
@@ -316,6 +322,7 @@ label:hover{
 }
 }
 @media only screen and (max-width:600px){
+ 
     .one-half{
         width:100%;
         display:block;
@@ -347,7 +354,8 @@ label:hover{
     width: 200px;
     border-top: 4px solid #363897;
 } */
-@media only screen and (max-width:500px){
+@media only screen and (max-width:350px){
+ 
   .radio-slot .display-inline{
     width:45%;
   }
@@ -356,7 +364,7 @@ label:hover{
   }
   .image-bottom img, .image-top img{
         display:none;
-    }
+   
 }
 span.colororrange {
     color: #FB6200;
@@ -364,8 +372,9 @@ span.colororrange {
 span.colorblack {
   color:rgb(#000)
 }
-@media only screen and (min-width: 769px)
-{
+ 
+}
+@media only screen and (min-width: 769px){
   .one-half {
     width:48%;
     vertical-align: middle;
@@ -378,11 +387,8 @@ span.colorblack {
   vertical-align: middle;
   margin: 0 auto;
 }
+}
 
-
-/* .paddingtomain{ */
-  /* padding: 10px 40px; */
-/* } */
 .firstline {
     text-align: center;
     margin: 16px;
@@ -402,13 +408,12 @@ span.colorblack {
 .d-lg-none{
   display: none !important;
 }
-}
 .radio-slot .display-inline{
   width: 100px !important;
     text-align: center;
 }
-@media only screen and (max-width:768px)
-{
+@media only screen and (max-width:768px){
+ 
   .one-half {
     width: 100%;
     display: inline-block;
@@ -434,11 +439,11 @@ span.colorblack {
     width:50%;
     flex-wrap: wrap;
   }
+
 }
 
-
-
-
+ 
+ 
 
 /* Date Slot Time Form */
 
@@ -491,7 +496,7 @@ span.colorblack {
       width:150px;
       height:41px;
       border-radius: 10px;
-      padding-top:4px;padding-bottom:4px;
+      padding-top:6px;padding-bottom:4px;
       text-align: center;  
       transition: all .3s ease-out 0.1s;
       border: 1px solid #42249c;
@@ -500,8 +505,10 @@ span.colorblack {
       display: inline-block;
       cursor: pointer;
       margin-bottom: 10px;
-      margin-right: 15px;
+      margin-right: 10px;
   }
+
+ 
   
   /* Style the active class, and buttons on mouse-over */
   .active2, .date:hover {
@@ -517,17 +524,16 @@ span.colorblack {
    h3 {
       width:140px;
       font-weight: 500;
-      margin: 0 auto;
+      margin: 0 auto 20px;
       font-size: 20px;
       color: #422094;
       font-weight: 600;
       background-color: #fff;
-      border-radius: 20px;
+      border-radius: 10px;
       padding: 10px 0px;
-     /* border: 1px solid #422094;*/
-     border:none;
-     text-decoration-line:underline;
-     text-decoration-color:#422094;
+      text-align: center;
+      border:none;
+      border-bottom: 1px solid #42249c;
   }
   
   .btn {
@@ -545,7 +551,6 @@ span.colorblack {
       font-weight: bold;
       cursor: pointer;
       border: none;
-      
       margin:15px auto;
       color: white;
       display:none;
@@ -572,7 +577,22 @@ span.colorblack {
     margin-right: 10px;margin-bottom: 10px;
 }
 
+
+.radioSlots{
+  width:157px;
+  height:35px;
+  border-radius: 10px;
+  padding-top:8px;
+  text-align: center;  
+  transition: all .3s ease-out 0.1s;
+  border: 1px solid #42249c;
+  font-size: 16px;
+  font-weight:500;
+  margin:4px;
  
+}
+
+
 .active, .slot:hover {
   /* background-color: #392094; */
   background-color: #fff;
@@ -605,14 +625,15 @@ span.colorblack {
   width:100%;
   font-weight:400;
   font-size:16px;
-  text-transform: lowercase;
+  text-align: center;
   }
    
 
  
-#available-slots input[type="radio"]{
+ #available-slots input[type="radio"]{
 width:20px;
-}
+border: 2px solid red;
+}  
 
 
 #myDIV{
